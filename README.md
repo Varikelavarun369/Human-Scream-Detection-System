@@ -116,7 +116,7 @@ Below are the key Python and frontend libraries used in the project:
 
 6.If the score does not exceed the threshold, no alert is generated.
 
-7.(You may adjust the threshold value to suit your application's sensitivity or reduce false positives as needed.)
+7.You may adjust the threshold value to suit your application's sensitivity or reduce false positives as needed.
 
 <br>
 
@@ -247,6 +247,8 @@ The trained model achieves up to 88.4% accuracy on the validation/test dataset, 
 
 1.Clone the repository and navigate to the project folder.
 
+<br>
+
 2.Set up environment variables in a .env file:
 
 1.Twilio credentials (for SMS)
@@ -257,18 +259,24 @@ The trained model achieves up to 88.4% accuracy on the validation/test dataset, 
 
 4.Any API keys (e.g., Google Maps JavaScript API key)
 
+<br>
+
 3.Install dependencies:
 
 pip install -r requirements.txt
 
+<br>
 
-4. Train and export the model:
+4.Train and export the model:
    
 Run and complete model.ipynb.
 
+<br>
 5.Start the backend:
 
 python app.py
+
+<br>
 
 6.Open index.html in your browser.
 
@@ -276,14 +284,17 @@ python app.py
 
 ℹ️ Additional Information
 
-1.SMS Alerts: Implemented with Twilio Python SDK. Get a free trial or paid account at Twilio, set up credentials, and follow Twilio’s documentation for correct integration.
+1.SMS Alerts: Implemented with Twilio Python SDK. Get a free trial  at Twilio, set up credentials.
 
 2.Email Alerts: Implemented using Python’s smtplib and email libraries, configured for Gmail. For Gmail, generate an “App Password” from your Google Account security settings, and use this password instead of your main email password for the SMTP configuration.
 
 3.Location Services: Uses the browser’s Geolocation API if available. If denied, attempts location estimation via IP geolocation (various APIs may be supported in app.py). Display and mapping use the Google Maps JavaScript API (API key required).
 
+<br>
 
+Dataset:
 
+https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
 
 
 
