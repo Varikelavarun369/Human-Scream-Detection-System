@@ -243,6 +243,46 @@ The trained model achieves up to 88.4% accuracy on the validation/test dataset, 
 
 <br>
 
+🛠️ Setup
+
+1.Clone the repository and navigate to the project folder.
+
+2.Set up environment variables in a .env file:
+
+1.Twilio credentials (for SMS)
+
+2.MongoDB URI
+
+3.Gmail and Google App Password (for SMTP)
+
+4.Any API keys (e.g., Google Maps JavaScript API key)
+
+3.Install dependencies:
+
+pip install -r requirements.txt
+
+
+4. Train and export the model:
+   
+Run and complete model.ipynb.
+
+5.Start the backend:
+
+python app.py
+
+6.Open index.html in your browser.
+
+<br>
+
+ℹ️ Additional Information
+
+1.SMS Alerts: Implemented with Twilio Python SDK. Get a free trial or paid account at Twilio, set up credentials, and follow Twilio’s documentation for correct integration.
+
+2.Email Alerts: Implemented using Python’s smtplib and email libraries, configured for Gmail. For Gmail, generate an “App Password” from your Google Account security settings, and use this password instead of your main email password for the SMTP configuration.
+
+3.Location Services: Uses the browser’s Geolocation API if available. If denied, attempts location estimation via IP geolocation (various APIs may be supported in app.py). Display and mapping use the Google Maps JavaScript API (API key required).
+
+
 
 
 
