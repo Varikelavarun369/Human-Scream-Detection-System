@@ -152,9 +152,9 @@ RMS energy quantifies the loudness or intensity of an audio segment. Screams are
 
 5.These features are extracted and combined into a feature vector that represents the spectral, temporal, and energy-related aspects of audio signals, enabling the model to robustly distinguish screams from non-scream sounds.
 
-6.Handling Imbalance: The SMOTE (Synthetic Minority Over-sampling Technique) method from the imbalanced-learn package is used during model training to address class imbalance in the dataset.
+3.Handling Imbalance: The SMOTE (Synthetic Minority Over-sampling Technique) method from the imbalanced-learn package is used during model training to address class imbalance in the dataset.
 
-7.Accuracy Achieved:
+4.Accuracy Achieved:
 The trained model achieves up to 93% accuracy on the validation/test dataset, as reported in the testmodel.ipynb notebook. The model's performance was evaluated using other metrics such as precision, recall, and F1-score, confirming its robustness for real-world scream detection scenarios.
 
 
