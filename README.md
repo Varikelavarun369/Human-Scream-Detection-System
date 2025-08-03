@@ -136,6 +136,7 @@ Below are the key Python and frontend libraries used in the project:
 
 Each detection event in MongoDB typically includes the following fields and objects for comprehensive analysis and future reference:
 
+
 1.timestamp: The exact ISO format date and time when the scream was detected or when an event was logged.
 
 <br>
@@ -216,14 +217,22 @@ The model extracts several key audio features from the input sound using the lib
 1.MFCC (Mel-frequency Cepstral Coefficients):
 MFCCs capture the timbral and spectral characteristics of an audio signal by representing how energy is distributed across different frequency bands, modeled on human hearing. They are highly effective for distinguishing different types of sounds, including the sharp, high-pitched qualities often present in screams.
 
+<br>
+
 2.Chroma Features:
 Chroma features represent the intensity of each of the 12 distinct semitones (chromatic scale) of the musical octave, summarizing the harmonic content of the audio. In scream detection, chroma can help differentiate between harmonic (voiced) and noisy (unvoiced or chaotic) sounds.
+
+<br>
 
 3.Zero Crossing Rate (ZCR):
 ZCR measures how often the signal changes sign in a given frame (i.e., crosses the zero amplitude axis). Screams tend to have a much higher zero-crossing rate due to their noisy, unstructured nature compared to speech or music, making ZCR a useful indicator.
 
+<br>
+
 4.RMS Energy (Root Mean Square Energy):
 RMS energy quantifies the loudness or intensity of an audio segment. Screams are generally loud events with high energy content, so RMS is effective for helping the model identify potential alert events.
+
+<br>
 
 5.These features are extracted and combined into a feature vector that represents the spectral, temporal, and energy-related aspects of audio signals, enabling the model to robustly distinguish screams from non-scream sounds.
 
@@ -234,7 +243,7 @@ RMS energy quantifies the loudness or intensity of an audio segment. Screams are
 <br>
 
 4.Accuracy Achieved:
-The trained model achieves up to 93% accuracy on the validation/test dataset, as reported in the testmodel.ipynb notebook. The model's performance was evaluated using other metrics such as precision, recall, and F1-score, confirming its robustness for real-world scream detection scenarios.
+The trained model achieves up to 88.4% accuracy on the validation/test dataset, as reported in the testmodel.ipynb notebook. The model's performance was evaluated using other metrics such as precision, recall, and F1-score, confirming its robustness for real-world scream detection scenarios.
 
 <br>
 
