@@ -1,4 +1,5 @@
 Flask
+flask-cors
 librosa
 scikit-learn
 imbalanced-learn
@@ -11,4 +12,6 @@ email-validator
 matplotlib
 numpy
 soundfile
-smtplib
+geopy
+bson
+Werkzeug
