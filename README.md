@@ -6,13 +6,21 @@
 
 The Scream Detection System is an AI-powered application that identifies screams in real-time audio or uploaded files and can trigger emergency alerts via SMS or email, including geolocation data to designated contacts. This platform is designed for enhanced safety, enabling rapid and automated notifications upon scream detection.
 
+<br>
+
 ✨ Features
 
 1.Real-Time Audio Monitoring: Live scream detection using the microphone.
 
+<br>
+
 2.Audio File Analysis: Analyze uploaded WAV or MP3 files for screams.
 
+<br>
+
 3.Geolocation Integration: Retrieves location details using browser geolocation APIs (with IP address fallbacks). Google Maps API is used for mapping detected incident locations.
+
+<br>
 
 4.Emergency Alerts (SMS & Email):
 
@@ -20,31 +28,56 @@ SMS: Alerts are sent using the Twilio API. A Twilio account and API credentials 
 
 Email: Notifications sent via Gmail. Uses Google App Passwords for secure SMTP access to Gmail accounts.
 
+<br>
+
 
 📦 Required Libraries
+
 Below are the key Python and frontend libraries used in the project:
 
 1.Flask (backend REST API)
 
+<br>
+
 2.librosa (audio feature extraction: MFCC, chroma, ZCR, RMS, etc.)
+
+<br>
 
 3.scikit-learn (model training, RandomForestClassifier)
 
+<br>
+
 4.imbalanced-learn (SMOTE for class balancing)
+
+<br>
 
 5.joblib (model/scaler serialization)
 
+<br>
+
 6.pymongo (MongoDB data storage)
+
+<br>
 
 7.twilio (SMS sending)
 
+<br>
+
 8.smtplib and email (SMTP email sending)
+
+<br>
 
 9.dotenv (environment variable management)
 
+<br>
+
 10.requests (HTTP API calls, e.g., geolocation)
 
+<br>
+
 11.Frontend: Standard HTML, CSS, JavaScript, and Google Maps JavaScript API
+
+<br>
 
 
 ⚙️ How It Works
