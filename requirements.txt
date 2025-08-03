@@ -1,0 +1,14 @@
+Flask
+librosa
+scikit-learn
+imbalanced-learn
+joblib
+pymongo
+twilio
+python-dotenv
+requests
+email-validator
+matplotlib
+numpy
+soundfile
+smtplib
