@@ -82,11 +82,7 @@ Below are the key Python and frontend libraries used in the project:
 
 ⚙️ How It Works
 
-<br>
 🖥️ Frontend (index.html):
-
-<br>
-
 
 1.Users can monitor their mic for live scream detection or upload audio files for analysis.
 
