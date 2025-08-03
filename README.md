@@ -305,7 +305,15 @@ https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
 
 
 
+
+<br>
+
+
+
+
 <img width="648" height="361" alt="2" src="https://github.com/user-attachments/assets/9ed8fe68-a025-419e-a9b8-a36a50a8451e" />
+
+<br>
 
 
 
@@ -316,7 +324,20 @@ https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
 
 
 
+
+<br>
+
+
+
+
+
 <img width="648" height="257" alt="4" src="https://github.com/user-attachments/assets/38881437-2c9c-45cb-99f8-16554d65900b" />
+
+
+
+
+
+<br>
 
 
 
@@ -325,7 +346,19 @@ https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
 
 
 
+
+
+<br>
+
+
 <img width="654" height="346" alt="6" src="https://github.com/user-attachments/assets/0b27fafd-b999-45a8-a1d8-5814a101cb5a" />
+
+
+
+
+
+
+<br>
 
 
 
@@ -334,7 +367,21 @@ https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
 
 
 
+
+
+
+<br>
+
+
+
 <img width="324" height="356" alt="8" src="https://github.com/user-attachments/assets/0fca4a1c-8903-4aac-8272-d8b2223adcce" />
+
+
+
+
+
+
+<br>
 
 
 
@@ -347,7 +394,21 @@ https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
 
 
 
+<br>
+
+
+
+
+
+
 <img width="706" height="410" alt="10" src="https://github.com/user-attachments/assets/22684c31-44a4-40f7-8b2f-e626df658f34" />
+
+
+
+
+
+
+<br>
 
 
 
