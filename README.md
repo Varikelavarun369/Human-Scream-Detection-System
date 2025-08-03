@@ -296,6 +296,84 @@ Dataset:
 
 https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
 
+📸 Screenshots
+
+
+
+<img width="646" height="361" alt="1" src="https://github.com/user-attachments/assets/6414eff4-8363-4ff5-9d32-e1887facb438" />
+
+
+
+
+<img width="648" height="361" alt="2" src="https://github.com/user-attachments/assets/9ed8fe68-a025-419e-a9b8-a36a50a8451e" />
+
+
+
+
+<img width="648" height="361" alt="3" src="https://github.com/user-attachments/assets/fa4c50be-9351-43d8-bf6a-2e056911b4b5" />
+
+
+
+
+
+<img width="648" height="257" alt="4" src="https://github.com/user-attachments/assets/38881437-2c9c-45cb-99f8-16554d65900b" />
+
+
+
+
+<img width="629" height="264" alt="5" src="https://github.com/user-attachments/assets/80a56566-5225-4852-a78b-74b66718a711" />
+
+
+
+<img width="654" height="346" alt="6" src="https://github.com/user-attachments/assets/0b27fafd-b999-45a8-a1d8-5814a101cb5a" />
+
+
+
+
+<img width="641" height="361" alt="7" src="https://github.com/user-attachments/assets/f1053f89-046a-4107-a123-a830f7c6951e" />
+
+
+
+<img width="324" height="356" alt="8" src="https://github.com/user-attachments/assets/0fca4a1c-8903-4aac-8272-d8b2223adcce" />
+
+
+
+
+
+<img width="394" height="350" alt="9" src="https://github.com/user-attachments/assets/6e907b2e-f15a-4cea-96b7-8ed9b1ff53cc" />
+
+
+
+
+
+
+<img width="706" height="410" alt="10" src="https://github.com/user-attachments/assets/22684c31-44a4-40f7-8b2f-e626df658f34" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
